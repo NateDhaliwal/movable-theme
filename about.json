@@ -5,6 +5,22 @@
   "about_url": "TODO: Put your theme's public repo or Meta topic URL here",
   "license_url": "https://github.com/NateDhaliwal/movable-theme/blob/main/LICENSE",
   "theme_version": "1.0.0",
+  "color_schemes": {
+    "Movable Light": {
+      "primary": "222",
+      "secondary": "fff",
+      "tertiary": "08c",
+      "quaternary": "e45735",
+      "header_background": "fff",
+      "header_primary": "333",
+      "highlight": "ffff4d",
+      "selected": "d1f0ff",
+      "hover": "f2f2f2",
+      "danger": "c80001",
+      "success": "090",
+      "love": "fa6c8d"
+    }
+  },
   "assets": {},
   "modifiers": {}
 }
