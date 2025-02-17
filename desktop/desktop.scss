@@ -1,0 +1,12 @@
+div#main-outlet-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+div.sidebar-wrapper {
+  order: 2;
+}
+
+div#main-outlet {
+  order: 1;
+}
