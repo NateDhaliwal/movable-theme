@@ -1,12 +1,5 @@
 div#main-outlet-wrapper {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 25% 75%;
 }
 
-div.sidebar-wrapper {
-  order: 2;
-}
-
-div#main-outlet {
-  order: 1;
-}
