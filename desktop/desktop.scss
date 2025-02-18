@@ -3,3 +3,11 @@ div#main-outlet-wrapper {
   grid-template-columns: 25% 75%;
 }
 
+div.sidebar-wrapper {
+  display: block!important;
+  grid-column: 1;
+}
+
+div#main-outlet {
+  grid-column: 2;
+}
