@@ -1,13 +1,17 @@
+
 body.has-sidebar-page #main-outlet-wrapper {
   display: flex;
 }
 
-.sidebar-wrapper {
-  order: 2;
-}
+@if $swap_left_sidebar_and_topic_list {
+  .sidebar-wrapper {
+    order: 2;
+  }
 
-#main-outlet {
-  padding-top: 1.5em;
-  order: 1;
-  margin-left: 5px;
+  #main-outlet {
+    padding-top: 1.5em;
+    order: 1;
+    margin-left: 5px;
+  }
+
 }
