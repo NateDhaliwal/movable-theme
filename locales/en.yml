@@ -2,4 +2,4 @@ en:
   theme_metadata:
     description: "TODO"
     settings:
-      example_setting: "A description of a setting."
+      place_Discourse_sidebar: "Swaps the sidebar and the topic list. Places the topic list on the left, and the sidebar on the right."
