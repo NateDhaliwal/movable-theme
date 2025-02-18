@@ -18,7 +18,7 @@ body.has-sidebar-page #main-outlet-wrapper {
     margin-left: 5px;
   }
 
-} @else if $place_Discourse_sidebar == "right" {
+} @else /*if $place_Discourse_sidebar == "right"*/ {
   body.has-sidebar-page #main-outlet-wrapper {
     flex-direction: row;
   }
@@ -34,7 +34,7 @@ body.has-sidebar-page #main-outlet-wrapper {
     order: 2;
   }
   
-} @else {
+}/* @else {
   body.has-sidebar-page #main-outlet-wrapper {
     flex-direction: column;
   }
@@ -47,5 +47,5 @@ body.has-sidebar-page #main-outlet-wrapper {
     padding-top: 1.5em;
     order: 2;
   }
-}
+} */
 
