@@ -1,6 +1,9 @@
-swap_left_sidebar_and_topic_list:
-  type: bool
-  default: false
+place_Discourse_sidebar:
+  type: list
+  default: right
+  choices:
+    - left
+    - top
   description:
     en:
       "Swaps the sidebar and the topic list. Places the topic list on the left, and the sidebar on the right."
