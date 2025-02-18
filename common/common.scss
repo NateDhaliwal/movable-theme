@@ -4,7 +4,7 @@ body.has-sidebar-page #main-outlet-wrapper {
 }
 
 @if $swap_left_sidebar_and_topic_list {
-  div#global-notice-theme-preview::after {
+  p.nd-indicator::after {
     content: $swap_left_sidebar_and_topic_list;
   }
   .sidebar-wrapper {
@@ -18,7 +18,7 @@ body.has-sidebar-page #main-outlet-wrapper {
   }
 
 } @else {
-  div#global-notice-theme-preview::after {
+  p.nd-indicator::after {
     content: $swap_left_sidebar_and_topic_list;
   }
   .sidebar-wrapper {
