@@ -4,6 +4,3 @@ place_Discourse_sidebar:
   choices:
     - left
     - top
-  description:
-    en:
-      "Swaps the sidebar and the topic list. Places the topic list on the left, and the sidebar on the right."
