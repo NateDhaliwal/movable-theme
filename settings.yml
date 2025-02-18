@@ -1,2 +1,6 @@
-example_setting:
-  default: true
+swap_left_sidebar_and_topic_list:
+  type: bool
+  default: false
+  description:
+    en:
+      "Swaps the sidebar and the topic list. Places the topic list on the left, and the sidebar on the right."
