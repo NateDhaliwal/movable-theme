@@ -1,5 +1,5 @@
 place_Discourse_sidebar:
-  type: list
+  type: enum
   default: right
   choices:
     - left
