@@ -4,7 +4,8 @@ body.has-sidebar-page #main-outlet-wrapper {
 }
 
 @if $swap_left_sidebar_and_topic_list {
-  p.nd-indicator::after {
+  p.nd-indicator {
+    color: blue;
     content: $swap_left_sidebar_and_topic_list;
   }
   .sidebar-wrapper {
@@ -18,7 +19,8 @@ body.has-sidebar-page #main-outlet-wrapper {
   }
 
 } @else {
-  p.nd-indicator::after {
+  p.nd-indicator {
+    color: red;
     content: $swap_left_sidebar_and_topic_list;
   }
   .sidebar-wrapper {
