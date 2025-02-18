@@ -1,13 +1,1 @@
-div#main-outlet-wrapper {
-  display: grid;
-  grid-template-columns: 50% 50%;
-}
 
-div.sidebar-wrapper {
-  display: block!important;
-  grid-column: 1;
-}
-
-div#main-outlet {
-  grid-column: 2;
-}
