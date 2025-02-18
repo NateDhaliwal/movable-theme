@@ -1,6 +1,13 @@
-div.nd-right-sidebar {
-  right: 0;
-  top: 0;
-  width: 10%;
-  position: fixed;
+body.has-sidebar-page #main-outlet-wrapper {
+  display: flex;
+}
+
+.sidebar-wrapper {
+  order: 2;
+}
+
+#main-outlet {
+  padding-top: 1.5em;
+  order: 1;
+  margin-left: 5px;
 }
