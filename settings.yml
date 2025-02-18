@@ -3,4 +3,3 @@ place_Discourse_sidebar:
   default: right
   choices:
     - left
-    - top
