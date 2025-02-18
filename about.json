@@ -4,6 +4,7 @@
   "authors": "NateDhaliwal",
   "license_url": "https://github.com/NateDhaliwal/movable-theme/blob/main/LICENSE",
   "theme_version": "1.0.0",
+  "description": "A theme that can move different Discourse components around.",
   "color_schemes": {
     "Movable Light": {
       "primary": "222",
