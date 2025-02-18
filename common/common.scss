@@ -3,7 +3,11 @@ body.has-sidebar-page #main-outlet-wrapper {
   display: flex;
 }
 
-@if $swap_left_sidebar_and_topic_list == "true" {
+@if $place_Discourse_sidebar == "left" {
+  body.has-sidebar-page #main-outlet-wrapper {
+    flex-direction: row;
+  }
+  
   .sidebar-wrapper {
     order: 2;
   }
@@ -14,7 +18,25 @@ body.has-sidebar-page #main-outlet-wrapper {
     margin-left: 5px;
   }
 
+} @else if $place_Discourse_sidebar == "right" {
+  body.has-sidebar-page #main-outlet-wrapper {
+    flex-direction: row;
+  }
+  
+  .sidebar-wrapper {
+    order: 1;
+  }
+
+  #main-outlet {
+    padding-top: 1.5em;
+    order: 2;
+  }
+  
 } @else {
+  body.has-sidebar-page #main-outlet-wrapper {
+    flex-direction: column;
+  }
+  
   .sidebar-wrapper {
     order: 1;
   }
