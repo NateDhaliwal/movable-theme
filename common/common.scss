@@ -3,7 +3,7 @@ body.has-sidebar-page #main-outlet-wrapper {
   display: flex;
 }
 
-@if $swap_left_sidebar_and_topic_list {
+@if $swap_left_sidebar_and_topic_list == true {
   .sidebar-wrapper {
     order: 2;
   }
