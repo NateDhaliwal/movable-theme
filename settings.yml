@@ -3,3 +3,11 @@ place_Discourse_sidebar:
   default: left (default)
   choices:
     - right
+
+header_transparency:
+  type: float
+  default: 0.60
+
+header_blur_px:
+  type: integer
+  default: 5
