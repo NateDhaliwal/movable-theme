@@ -17,24 +17,8 @@ body.has-sidebar-page #main-outlet-wrapper {
     order: 1;
     margin-left: 5px;
   }
-
-} @else /*if $place_Discourse_sidebar == "right"*/ {
-  body.has-sidebar-page #main-outlet-wrapper {
-    flex-direction: row;
-  }
   
-  .sidebar-wrapper {
-    postition: relative!important;
-    top: 0!important;
-    order: 1;
-  }
-
-  #main-outlet {
-    padding-top: 1.5em;
-    order: 2;
-  }
-  
-}/* @else {
+} @else {
   body.has-sidebar-page #main-outlet-wrapper {
     flex-direction: column;
   }
@@ -47,5 +31,5 @@ body.has-sidebar-page #main-outlet-wrapper {
     padding-top: 1.5em;
     order: 2;
   }
-} */
+}
 
