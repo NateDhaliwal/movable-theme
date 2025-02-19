@@ -15,12 +15,12 @@ body.has-sidebar-page #main-outlet-wrapper {
   #main-outlet {
     padding-top: 1.5em;
     order: 1;
-    margin-left: 5px;
+    margin-left: 10px;
   }
   
 } @else {
   body.has-sidebar-page #main-outlet-wrapper {
-    flex-direction: column;
+    flex-direction: row;
   }
   
   .sidebar-wrapper {
