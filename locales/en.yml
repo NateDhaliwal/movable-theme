@@ -3,3 +3,5 @@ en:
     description: "A theme that can move different Discourse components around."
     settings:
       place_Discourse_sidebar: "Swaps the sidebar and the topic list. Places the topic list on the left, and the sidebar on the right."
+      header_transparency: "A number from 0.0 to 1.0 to modify the opacity of the site header. 0.0 is the least opaque, with 1.0 as the most opaque."
+      header_blur_px: "A number in px for the blur of the header. Recommended at 5."
