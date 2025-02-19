@@ -79,24 +79,6 @@ body.has-sidebar-page #main-outlet-wrapper {
           display: flex;
           border-bottom: none;
         }
-
-        .topic-list-data {
-          &.default {
-            width: 63%;
-          }
-
-          &.posters {
-            width: 7%;
-          }
-
-          &.posts {
-            width: 15%;
-          }
-
-          &.activity {
-            width: 15%;
-          }
-        }
       }
 
       .topic-list-body {
