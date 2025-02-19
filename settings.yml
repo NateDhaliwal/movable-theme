@@ -4,9 +4,9 @@ place_Discourse_sidebar:
   choices:
     - right
 
-header_transparency:
-  type: float
-  default: 0.60
+#header_transparency:
+#  type: float
+#  default: 0.60
 
 header_blur_px:
   type: integer
