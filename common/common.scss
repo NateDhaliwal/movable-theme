@@ -3,7 +3,7 @@ body.has-sidebar-page #main-outlet-wrapper {
   display: flex;
 }
 
-@if $place_Discourse_sidebar == "right (default)" {
+@if $place_Discourse_sidebar == "right" {
   body.has-sidebar-page #main-outlet-wrapper {
     flex-direction: row;
   }
