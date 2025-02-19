@@ -1,6 +1,9 @@
-
 body.has-sidebar-page #main-outlet-wrapper {
   display: flex;
+}
+
+header.d-header {
+  background-filter: blur(5px);
 }
 
 @if $place_Discourse_sidebar == "right" {
