@@ -8,10 +8,10 @@ header.d-header {
 }
 
 .topic-post.clearfix:not(:nth-child(1)) {
-  margin-top: 1em;
+  margin-top: 3em;
   border: 1px solid var(--primary);
   border-radius: 10px;
-  padding: 1em;
+  padding: 0.5em;
 }
 
 .topic-list .views {
