@@ -100,7 +100,7 @@ header.d-header {
         }
         
         .topic-list-item {
-          transition: transform 0.2s;
+          transition: transform #{$topic_pop_duration}s;
           width: 100%;
           display: flex;
           margin-bottom: 0.5em;
@@ -126,7 +126,8 @@ header.d-header {
           }
           
           &:hover {
-            transform: scale(1.1); // Wrote this myself
+            transform: scale($topic_pop_amount); // Wrote this myself
+            
             // background-color: var(--secondary);
             // box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
             // border: 1px solid rgba(var(--primary-rgb), 0.3);
@@ -211,9 +212,9 @@ header.d-header {
               margin-bottom: 0.25em;
             }
 
-            .title {
-              font-weight: bold;
-            }
+            // .title {
+            //   font-weight: bold;
+            // }
 
             .link-area {
               display: flex;
