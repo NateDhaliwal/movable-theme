@@ -7,7 +7,7 @@ header.d-header {
   backdrop-filter: blur(#{$header_blur_px}px);
 }
 
-.box.onscreen-post:not(:nth-child(1)) {
+.box.onscreen-post/*:not(:nth-child(1))*/ {
   margin-top: 3em;
   border: 1px solid var(--primary);
   border-radius: 10px;
