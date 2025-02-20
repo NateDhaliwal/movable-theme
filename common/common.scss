@@ -8,10 +8,14 @@ header.d-header {
 }
 
 .boxed.onscreen-post/*:not(:nth-child(1))*/ {
-  margin-top: 3em;
+  margin: 3em 0;
   border: 1px solid var(--primary);
   border-radius: 10px;
   padding: 0.5em;
+}
+
+.topic-body, .topic-avatar {
+  border: none; /* Removes a --primary-low border to the top and bottom */
 }
 
 .topic-list .views {
