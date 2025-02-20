@@ -7,8 +7,9 @@ header.d-header {
   backdrop-filter: blur(#{$header_blur_px}px);
 }
 
-div.clearfix.topic-post:nth-child(2) {
+div.clearfix.topic-post:nth-child(2)::before {
   border-top: 1px solid var(--primary-low);
+  width: max-content
 }
 
 article.boxed.onscreen-post:not(#post_1) {
