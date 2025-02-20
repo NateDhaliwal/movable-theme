@@ -174,7 +174,7 @@ header.d-header {
                 display: none;
               }
             }
-
+            
             &.posts {
               width: 15%;
               order: 3;
@@ -215,11 +215,11 @@ header.d-header {
               }
             }
 
-            .avatar {
-              width: 40px;
-              height: 40px;
-              border-radius: 12px !important;
-            }
+            // .avatar {
+            //   width: 40px;
+            //   height: 40px;
+            //   border-radius: 12px !important;
+            // }
           }
 
           .main-link {
@@ -249,7 +249,7 @@ header.d-header {
               }
             }
           }
-
+          /*
           .posts-map a,
           .num.age.activity a {
             padding: 0;
@@ -273,6 +273,7 @@ header.d-header {
               color: var(--primary-medium);
             }
           }
+          */
         }
       }
     }
