@@ -11,3 +11,11 @@ place_Discourse_sidebar:
 header_blur_px:
   type: integer
   default: 5
+
+topic_pop_amount:
+  type: float
+  default: 1.1
+
+topic_pop_duration:
+  type: float
+  default: 0.2
